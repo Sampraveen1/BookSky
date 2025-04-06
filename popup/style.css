@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Salsa', cursive;
+}
+
+.navbar{
+    background-color: #fd6569;
+    padding:10px;
+}
+
+.book-container{
+    background-color: black;
+    color:white;
+    margin:30px;
+    border-radius: 5px;
+    padding:10px;
+    width: 20%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.container h2{
+    color:#fd6569;
+}
+
+.container button{
+    border-radius: 6px;
+    margin-top: 7px;
+   padding-left: 5px;
+   padding-right: 5px;
+   background-color: #fd6569;
+}
+
+.popupbtn{
+    border-radius: 100%;
+    background-color: #fd6569;
+    padding: 15px;
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 200%;
+    border: none;
+}
+
+.overlay{
+   background-color: black;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top:0;
+   left:0;
+   opacity: 0.8;
+   z-index: 1;
+   display:none;
+}
+
+.addbooks{
+    background-color: #fd6569;
+    width: 30%;
+    margin: 30px;
+    padding: 30px;
+    position: absolute;
+    top:20%;
+    left:30%;
+    border-radius: 10px;
+    display: none;
+    z-index: 2;
+}
+
+.addbooks button{
+    background-color: black;
+    color:white;
+  border-radius: 5px;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding: 2px 12px;
+  margin-top: 5px;
+}
+
+.addbooks input{
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+
+.addbooks textarea{
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    border : solid black 2px;
+}
+
+.addbooks input::placeholder{
+    color:black;
+}
+
+.addbooks textarea::placeholder{
+    color:black;
+}
+
+.addbooks input:focus{
+    outline: none;
+}
+
+.addbooks textarea:focus{
+   outline: none;
+}
+
+.addbooks1{
+    text-align: center;
+}
+
+
+
+
+
+
+
